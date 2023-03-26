@@ -45,11 +45,33 @@ public class Main {
       //myLinkedList.printList();
 
       //insert
-      LinkedList myLinkedList = new LinkedList(0);
+      //LinkedList myLinkedList = new LinkedList(0);
+      //myLinkedList.append(2);
+      //myLinkedList.printList();
+
+      //myLinkedList.set(0, 1);
+      //myLinkedList.printList();
+
+      //remove
+      //LinkedList myLinkedList = new LinkedList(11);
+      //myLinkedList.append(3);
+      //myLinkedList.append(23);
+      //myLinkedList.append(7);
+      //myLinkedList.printList();
+
+      //myLinkedList.remove(2);
+      //myLinkedList.printList();
+
+      //reverse
+      LinkedList myLinkedList = new LinkedList(1);
       myLinkedList.append(2);
+      myLinkedList.append(3);
+      myLinkedList.append(4);
       myLinkedList.printList();
 
-      myLinkedList.set(0, 1);
+      System.out.println("\n");
+
+      myLinkedList.reverse();
       myLinkedList.printList();
    }
 }
