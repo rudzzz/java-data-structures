@@ -56,11 +56,20 @@ public class Main {
         //myDoublyLinkedList.printList();
 
         //insert
-        DoublyLinkedList myDoublyLinkedList = new DoublyLinkedList(1);
-        myDoublyLinkedList.append(3);
+        //DoublyLinkedList myDoublyLinkedList = new DoublyLinkedList(1);
+        //myDoublyLinkedList.append(3);
+        //myDoublyLinkedList.printList();
+        //System.out.println();
+        //myDoublyLinkedList.insert(1, 2);
+        //myDoublyLinkedList.printList();
+
+        //remove
+        DoublyLinkedList myDoublyLinkedList = new DoublyLinkedList(0);
+        myDoublyLinkedList.append(1);
+        myDoublyLinkedList.append(2);
         myDoublyLinkedList.printList();
         System.out.println();
-        myDoublyLinkedList.insert(1, 2);
+        myDoublyLinkedList.remove(1);
         myDoublyLinkedList.printList();
     }
 }
