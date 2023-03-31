@@ -128,6 +128,7 @@ public class LinkedList {
             Node newNode = new Node(value);
             Node temp = get(index - 1);
             newNode.next = temp.next;
+            temp.next = newNode;
             length++;
             return true;
         }
