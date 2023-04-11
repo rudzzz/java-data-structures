@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Root = " + myBinarySearchTree.root);
         */
 
+        /*
         // insert
         BinarySearchTree myBinarySearchTree = new BinarySearchTree();
 
@@ -20,5 +21,20 @@ public class Main {
         myBinarySearchTree.insert(27);
 
         System.out.println(myBinarySearchTree.root.left.right.value);
+
+         */
+
+        // contains
+        BinarySearchTree myBinarySearchTree = new BinarySearchTree();
+        myBinarySearchTree.insert(47);
+        myBinarySearchTree.insert(21);
+        myBinarySearchTree.insert(76);
+        myBinarySearchTree.insert(18);
+        myBinarySearchTree.insert(52);
+        myBinarySearchTree.insert(82);
+        myBinarySearchTree.insert(27);
+
+        System.out.println(myBinarySearchTree.contains(27));
+        System.out.println(myBinarySearchTree.contains(84));
     }
 }
